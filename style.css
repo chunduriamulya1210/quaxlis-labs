@@ -205,3 +205,21 @@ footer {
     font-size: 13px;
   }
 }
+/* Logo Branding */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo img {
+  width: 48px;
+  height: auto;
+}
+
+.logo span {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #2de2c5;
+}
+
