@@ -115,3 +115,48 @@ section {
   font-weight: 600;
   color: #202124;
 }
+/* MOBILE FIX */
+
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    display: flex;
+    gap: 15px;
+  }
+
+  nav a {
+    margin-left: 0;
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 120px 20px 60px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .section {
+    padding: 60px 20px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+}
